@@ -55,10 +55,12 @@ nav{
     display: flex;
     flex-wrap: wrap;
     /* background: #ce8888; */
+    min-height: calc(100vh - 90px);
 
 }
 .banner div{
     flex: 1;
+    padding: 30px;
 }
 .banner .text-group{
     display: flex;
