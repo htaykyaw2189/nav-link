@@ -41,7 +41,7 @@
         margin-left: auto;
     }
     .banner .text-group{
-        padding: 0px 30px;
+        padding: 0px 0px;
         /* background: #af7474; */
         display: flex;
         flex-direction: column;
