@@ -83,6 +83,9 @@
     .banner div{
         height: 270px;
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
     header{
         background: #c51a1a;

@@ -58,6 +58,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     /* background: #ce8888; */
+    flex-direction: row;
     min-height: calc(100vh - 90px);
 
 }
