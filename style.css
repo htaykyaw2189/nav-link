@@ -7,13 +7,16 @@
     color: var(dark-color);
     font-size: 1rem;
 }
+
 :root {
     primary-color: rgb(207, 108, 50); 
     secondary-color: rgb(57, 28, 13);
     dark-color: black;
     light-color: white;
 }
-h1{font-size: 2.5rem;}
+h1{font-size: 2.5rem;
+  text-transform: uppercase;
+}
 h2{font-size: 2rem;}
 h3{font-size: 1.5rem;}
 h4{font-size: 1.25rem;}
@@ -65,25 +68,59 @@ nav{
 .banner .text-group{
     display: flex;
     flex-direction: column;
-    /* background: #957070; */
+    background: #957070;
     align-items: flex-start;
     justify-content: center;
-    padding: 0 80px;
+    padding: 0 200px;
 }
 .banner p{
     margin: 15px 0;
 }
 .btn{
-    border-radius: 20px;
+    border-radius: 15px;
     border: none;
     cursor: pointer;
-    box-shadow: inset 0 0 0 10px red;
-    color: aliceblue;
+    box-shadow: inset 0 0 0 2px rgb(145, 63, 63);
+    color: rgb(236, 204, 165);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+    background: #461d0f;
+}
+.banner img{
+    border-radius: 100%;
+    opacity: 0.9;
 }
 .banner .img{
-    /* background: #d4afaf; */
+    background: #d4afaf;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.banner h1 {
+    font-size: 3rem;
 
+}
+.banner p{
+    font-size: 1.1rem;
+}
+header{
+    background: #ac17d1;
+  
+}
+.mb1{
+    /* background: #add290; */
+    text-align: center;
+    padding: 20px 0;
+    height: 150px;
+    width: 100%;
+}
+.mb1 h1{
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+.mb2{
+    background: #92498f;
+    height: 300px;
 }
