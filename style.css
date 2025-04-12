@@ -124,4 +124,28 @@ header{
 .mb2{
     background: #92498f;
     height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box1{
+    background: #f23a3a;
+    text-align: center;
+}
+.akk{
+   
+}
+.box2{
+    background: #4c4444;
+}
+.box3{
+    background: #783838;
+}
+.box4{
+    background: #411534;
+}
+.b{
+    width: 250px;
+    height: 250px;
 }
