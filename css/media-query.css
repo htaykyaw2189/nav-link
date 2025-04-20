@@ -169,8 +169,8 @@
        padding: 15px 0;
    }
    .mb3 .box1 img{
-    width: 200px;
-    height: 180px;
+    width: 170px;
+    height: 150px;
    }
    .mb3 .box1 {
        float: left;
@@ -196,7 +196,7 @@
    }
 
    button {
-       width: 90px;
+       width: 80px;
        height: 25px;
        background: #000;
        color: white;
@@ -226,10 +226,10 @@
    }
 
    footer main div {
-       width: 190px;
+       width: 170px;
        background: #f2e8f3;
-       height: 40px;
-       margin: 6px;
+       height: 35px;
+       margin: 5px;
        display: flex;
        flex-wrap: wrap;
        flex-direction: row;
@@ -242,11 +242,11 @@
        width: 23px;
        border-radius: 50%;
        height: 20px;
-       margin: 0 6px;
+       margin: 0 4px;
    }
 
    footer h4 {
-       margin: 0px 10px;
+       margin: 0px 4px;
    }
 
    .main-1 {
@@ -254,7 +254,7 @@
        flex-wrap: wrap;
        justify-content: flex-start;
        align-items: flex-end;
-       padding: 10px;
+       padding: 6px;
    }
 
    .main-2 {
@@ -262,7 +262,7 @@
        flex-wrap: wrap;
        align-items: flex-start;
        justify-content: flex-start;
-       padding: 10px;
+       padding:6px;
    }
 
    span {
