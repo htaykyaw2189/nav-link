@@ -120,8 +120,8 @@
      .mb1 {
             /* background: #50911e; */
             text-align: center;
-            padding: 20px 0;
-            height: 100px;
+            padding: 30px 0;
+            height: 130px;
             width: 100%;
            
         }
@@ -178,7 +178,7 @@
        height: 200px;
        padding: 20px;
        text-align: end;
-       background: #c96d6d;
+       /* background: #c96d6d; */
    }
 
    .mb3 .box2 {
@@ -187,7 +187,7 @@
        height: 200px;
        padding: 15px;
        text-align: start;
-       background: #bfc42e;
+       /* background: #bfc42e; */
    }
     .mb3 .box2 img{
         width: 18px;
@@ -202,7 +202,7 @@
        width: 60px;
        height: 17px;
        background: #000;
-       color: rgb(54, 145, 187);
+       color: rgb(245, 246, 247);
        border: none;
        outline: none;
        cursor: pointer;
@@ -215,7 +215,7 @@
        clear: both;
        height: 70px;
        padding: 10px 0;
-       background: #8fa05a;
+       /* background: #8fa05a; */
    }
 
    footer h2 {
