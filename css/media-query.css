@@ -166,7 +166,7 @@
     width: 30px;
    }
    h3 {
-       padding: 15px 0;
+       padding: 12px 0;
    }
    .mb3 .box1 img{
     width: 150px;
@@ -178,7 +178,7 @@
        height: 200px;
        padding: 20px;
        text-align: end;
-       background: #3c1515;
+       background: #c96d6d;
    }
 
    .mb3 .box2 {
@@ -187,7 +187,7 @@
        height: 200px;
        padding: 15px;
        text-align: start;
-       background: #de7d7d;
+       background: #bfc42e;
    }
     .mb3 .box2 img{
         width: 18px;
@@ -195,18 +195,18 @@
     }
    h4 {
        margin: 4px 0px;
-       font-size: 0.6rem;
+       font-size: 0.5rem;
    }
 
    button {
-       width: 70px;
-       height: 20px;
+       width: 60px;
+       height: 17px;
        background: #000;
        color: rgb(54, 145, 187);
        border: none;
        outline: none;
        cursor: pointer;
-       margin: 5px 2px;
+       margin: 3px 1px;
        border-radius: 5px;
    }
    footer .container-box {
@@ -214,26 +214,26 @@
        width: 100%;
        clear: both;
        height: 70px;
-       padding: 20px 0;
+       padding: 10px 0;
        background: #8fa05a;
    }
 
    footer h2 {
-       padding: 6px 0;
+       padding: 4px 0;
    }
 
    footer main {
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       height: 180px;
+       height: 170px;
    }
 
    footer main div {
-       width: 170px;
-       background: #f2e8f3;
+       width: 160px;
+       background: #f2edf2;
        height: 35px;
-       margin: 5px;
+       margin: 4px;
        display: flex;
        flex-wrap: wrap;
        flex-direction: row;
@@ -250,7 +250,7 @@
    }
 
    footer h4 {
-       margin: 0px 4px;
+       margin: 0px 2px;
    }
 
    .main-1 {
@@ -258,7 +258,7 @@
        flex-wrap: wrap;
        justify-content: flex-start;
        align-items: flex-end;
-       padding: 6px;
+       padding: 3px;
    }
 
    .main-2 {
@@ -266,7 +266,7 @@
        flex-wrap: wrap;
        align-items: flex-start;
        justify-content: flex-start;
-       padding:6px;
+       padding:3px;
    }
 
    span {
