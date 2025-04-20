@@ -169,8 +169,8 @@
        padding: 15px 0;
    }
    .mb3 .box1 img{
-    width: 170px;
-    height: 150px;
+    width: 150px;
+    height: 130px;
    }
    .mb3 .box1 {
        float: left;
@@ -178,14 +178,16 @@
        height: 200px;
        padding: 20px;
        text-align: end;
+       background: #3c1515;
    }
 
    .mb3 .box2 {
        float: left;
        width: 50%;
        height: 200px;
-       padding: 20px;
+       padding: 15px;
        text-align: start;
+       background: #de7d7d;
    }
     .mb3 .box2 img{
         width: 18px;
@@ -213,6 +215,7 @@
        clear: both;
        height: 70px;
        padding: 20px 0;
+       background: #8fa05a;
    }
 
    footer h2 {
