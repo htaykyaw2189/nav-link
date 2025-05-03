@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        swiper-container {
+            width: 100%;
+            height: 500px;
+        }
+
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <swiper-container class="mySwiper" init="false">
+        <swiper-slide>
+            <div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="//picsum.photos/200" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                    magni atque rerum cupiditate omnis delectus repellat alias vero
+                    commodi perspiciatis.
+                </p>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="//picsum.photos/200" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                    magni atque rerum cupiditate omnis delectus repellat alias vero
+                    commodi perspiciatis.
+                </p>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="//picsum.photos/200" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                    magni atque rerum cupiditate omnis delectus repellat alias vero
+                    commodi perspiciatis.
+                </p>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="//picsum.photos/200" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                    magni atque rerum cupiditate omnis delectus repellat alias vero
+                    commodi perspiciatis.
+                </p>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div style="padding: 20px">
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="//picsum.photos/200" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                    magni atque rerum cupiditate omnis delectus repellat alias vero
+                    commodi perspiciatis.
+                </p>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div>
+                <h2>Lorem, ipsum dolor.</h2>
+                <img src="//picsum.photos/200" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                    magni atque rerum cupiditate omnis delectus repellat alias vero
+                    commodi perspiciatis.
+                </p>
+            </div>
+        </swiper-slide>
+    </swiper-container>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script>
+        const swiperEl = document.querySelector("swiper-container");
+        Object.assign(swiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                clickable: true,
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                "@1.50": {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+        swiperEl.initialize();
+    </script>
+</body>
+
+</html>

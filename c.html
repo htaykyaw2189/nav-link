@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+</head>
+
+<body>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track" style="width: 100%; background-color: blue;">
+            <ul class="splide__list" style=" height: 300px;">
+                <li class="splide__slide" style="background-color: rgb(117, 117, 162); margin:0 10px;">
+                    <img src="./image/Italian Coffee.jpg" alt="">
+                </li>
+
+                <li class="splide__slide" style="background-color: rgb(100, 173, 119); margin:0 10px;">Slide 02</li>
+                <li class="splide__slide" style="background-color: rgb(100, 173, 173); margin:0 10px;">Slide 03</li>
+                <li class="splide__slide" style="background-color: rgb(107, 100, 173); margin:0 10px;">Slide 04</li>
+                <li class="splide__slide" style="background-color: rgb(157, 100, 173); margin:0 10px;">Slide 05</li>
+                <li class="splide__slide" style="background-color: rgb(173, 100, 108); margin:0 10px;">Slide 06</li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js">
+
+    </script>
+    <script>
+        var splide = new Splide('.splide', {
+            type: 'loop',
+            perPage: 3,
+            focus: 'center',
+        });
+
+        splide.mount();
+    </script>
+
+</body>
+
+</html>
